@@ -251,10 +251,12 @@ class Sensors implements Runnable
                     // Get the max and min value at the currnet momnet based
                     // on the max and min ArrayList
                     ArrayList<Integer> temp = new ArrayList<>(listMax);
+                    Collections.sort(temp);
                     int size = temp.size();
                     int max = temp.get(size - 1);
 
                     temp = new ArrayList<>(listMin);
+                    Collections.sort(temp);
                     int min = temp.get(0);
 
                     // And add the difference into the difference list
