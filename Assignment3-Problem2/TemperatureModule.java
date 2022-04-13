@@ -1,3 +1,7 @@
+// Aedan Gilbert D. Deyto
+// Project 3 Problem 2 for COP4520
+// 4/13/2022
+
 import java.util.*;
 import java.io.*;
 import java.util.Collection;
