@@ -140,7 +140,7 @@ class ReadingList
         int max = -2;
 
         // Keeps traversing the list until its reachs the tail
-        while (temp.getKey() > max)
+        while (temp.getKey() >= max)
         {
             max = temp.getKey();
             temp = temp.next.getReference();
